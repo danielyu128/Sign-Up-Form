@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'NorseBold';
+  src: url('./fonts/Norsebold-font.otf') format('opentype');
+  font-weight: bold;
+}
+
+body{
+    font-family: 'NorseBold', sans-serif;
+;
+}
