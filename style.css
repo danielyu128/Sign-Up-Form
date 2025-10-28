@@ -79,7 +79,15 @@ body {
 #middle {
     display: flex;
     flex-direction: column;
+    height: 100%;
+    background-color: #f9fafb;
+
+}
+
+.whiteArea{
+    background-color: white;
     padding-left: 40px;
+
 }
 
 .rowHeader {
@@ -109,12 +117,6 @@ body {
 
 }
 
-#bottom {
-    background-color: #f9fafb;
-
-
-}
-
 input {
     min-width: 200px;
     font-family: sans-serif;
@@ -128,4 +130,45 @@ label {
     font-size: 10px;
     font-weight: bold;
     color: rgb(90, 85, 85);
+}
+
+#bottom {
+    background-color: #f9fafb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    font-family: var(--form-font);
+    padding-left: 40px;
+
+}
+
+button {
+    margin-bottom: 20px;
+    padding: 8px 40px;
+    background-color: #596D48;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    box-shadow: 5px 5px 5px gray;
+    transition-duration: 1s;
+
+}
+
+button:hover {
+    transform: translateY(-3px);
+    background-color: #6C815A;
+
+}
+
+button:active {
+    background-color: #7F946B;
+    transition: none;
+}
+
+
+span {
+    color: #596d48;
+    font-weight: bold;
+    font-family: var(--form-font);
 }

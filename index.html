@@ -33,59 +33,64 @@
 
         <div id="middle">
 
-            <div class="rowHeader">Let's do this!</div>
+            <form>
 
-            <div>
+                <div class="whiteArea">
+                    <div class="rowHeader">Let's do this!</div>
 
-                <form id="formSelection">
+                    <div id="formSelection">
 
-                    <div class="formColumn">
-                        <div class="formTitle">
-                            <label for="firstName">FIRST NAME</label>
-                            <input type="text" id="firstName" placeholder="John" required>
+
+                        <div class="formColumn">
+                            <div class="formTitle">
+                                <label for="firstName">FIRST NAME</label>
+                                <input type="text" id="firstName" placeholder="John" required>
+                            </div>
+
+                            <div class="formTitle">
+                                <label for="emailAddress">EMAIL</label>
+                                <input type="email" id="emailAddress" placeholder="john.doe@xyz.com" required>
+                            </div>
+
+                            <div class="formTitle">
+                                <label for="pswd">PASSWORD</label>
+                                <input type="password" id="pswd" required>
+                            </div>
                         </div>
 
-                        <div class="formTitle">
-                            <label for="emailAddress">EMAIL</label>
-                            <input type="email" id="emailAddress" placeholder="john.doe@xyz.com" required>
+                        <div class="formColumn">
+                            <div class="formTitle">
+                                <label for="lastName">LAST NAME</label>
+                                <input type="text" id="lastName" placeholder="Doe" required>
+                            </div>
+
+                            <div class="formTitle">
+                                <label for="telephone">PHONE NUMBER</label>
+                                <input type="tel" id="telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                                    placeholder="123-456-7890" required>
+                            </div>
+
+                            <div class="formTitle">
+                                <label for="pswd">CONFIRM PASSWORD</label>
+                                <input type="password" id="pswd" required>
+                            </div>
                         </div>
 
-                        <div class="formTitle">
-                            <label for="pswd">PASSWORD</label>
-                            <input type="password" id="pswd" required>
-                        </div>
+
+
                     </div>
+                </div>
 
-                    <div class="formColumn">
-                        <div class="formTitle">
-                            <label for="lastName">LAST NAME</label>
-                            <input type="text" id="lastName" placeholder="Doe" required>
-                        </div>
+                <div id="bottom">
+                    <button>Create Account</button>
+                    <div>Already have an account? <span>Log in</span></div>
+                </div>
 
-                        <div class="formTitle">
-                            <label for="telephone">PHONE NUMBER</label>
-                            <input type="tel" id="telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                                placeholder="123-456-7890" required>
-                        </div>
-
-                        <div class="formTitle">
-                            <label for="pswd">CONFIRM PASSWORD</label>
-                            <input type="password" id="pswd" required>
-                        </div>
-                    </div>
-
-
-
-                </form>
-            </div>
-
+            </form>
         </div>
 
 
-        <div id="bottom">
-            hello
 
-        </div>
 
 
     </div>
