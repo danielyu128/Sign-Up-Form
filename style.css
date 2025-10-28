@@ -91,11 +91,41 @@ body {
 
 }
 
-#formSelection{
+#formSelection {
     display: flex;
+    flex-direction: row;
 }
 
-.formTitle{
+.formTitle {
     display: flex;
     flex-direction: column;
+    padding-bottom: 25px;
+}
+
+.formColumn {
+    display: flex;
+    flex-direction: column;
+    padding-right: 60px;
+
+}
+
+#bottom {
+    background-color: #f9fafb;
+
+
+}
+
+input {
+    min-width: 200px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 5px 5px;
+
+}
+
+label {
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(90, 85, 85);
 }
