@@ -49,7 +49,7 @@
 
                             <div class="formTitle">
                                 <label for="emailAddress">EMAIL</label>
-                                <input type="email" id="emailAddress" placeholder="john.doe@xyz.com" required>
+                                <input type="email" id="emailAddress" placeholder="john.doe@xyz.com" title="Please enter a valid email, example john.doe@xyz.com" required>
                             </div>
 
                             <div class="formTitle">
@@ -67,7 +67,7 @@
                             <div class="formTitle">
                                 <label for="telephone">PHONE NUMBER</label>
                                 <input type="tel" id="telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                                    placeholder="123-456-7890" required>
+                                    placeholder="123-456-7890" title="Please enter a valid number, example: 123-456-7890" required>
                             </div>
 
                             <div class="formTitle">
@@ -83,7 +83,7 @@
 
                 <div id="bottom">
                     <button>Create Account</button>
-                    <div>Already have an account? <span>Log in</span></div>
+                    <div>Already have an account? <button type="button" id="loginButton">Log in</button></div>
                 </div>
 
             </form>
